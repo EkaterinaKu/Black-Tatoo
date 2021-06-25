@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.logo_image {
+    width: 149px;
+    height: 111px;
+    margin: 20px auto 40px 192px;
+}
+
+.banner {
+    width: 100%;
+    margin: 0 auto 40px auto;
+    font: 400 24px/28px 'Roboto';
+    text-align: center;
+}
+
+.banner_text {
+    padding-left: 250px;
+}
+
+.line {
+    border: 1px solid #000000;
+    margin-bottom: 186px;
+    width: 100%;
+}
+
+.main_title {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 35%;
+    width: 80%;
+    margin: 0 auto 110px auto;
+}
+
+.title_text {
+    width: 800px;
+    font: 400 100px/110px "Merriweather";
+}
+
+.title_image {
+    display: flex;
+    width: 165px;
+    height: 253px;
+    align-self: flex-end;
+}
+
+.title_photo {
+    width: 100%;
+}
+
+.time_info {
+    width: 50%;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.title_time {
+    font: 700 36px/45px "Merriweather";
+}
+
+.watch {
+    font: 400 36px/49px "Open Sans";
+    padding-top: 38px;
+}
+
+.section_text {
+    font: 400 18px/24px "Open Sans";
+    width: 45%;
+    margin: 0 auto;
+}
+
+.text {
+    padding-top: 123px;
+}
+
+.section_text_two {
+    padding-top: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F99D3A;
+    width: 100%;
+    margin-bottom: 124px;
+}
+
+.footer_title {
+    margin-top: 144px;
+    font: 400 100px/110px "Merriweather";
+    color: #000000;
+}
+
+.white_button {
+    margin-top: 64px;
+    margin-bottom: 150px;
+    padding: 23px 59.5px;
+    border: 2px solid #000000;
+    border-color: #000000;
+    font-family: "Open Sans";
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.info {
+    margin-top: 124px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+
+h3 {
+    font: 700 36px/45px "Merriweather";
+}
+
+.info_text {
+    padding-top: 37px;
+    font: 400 24px/32px "Open Sans";
+}
+
+.group {
+    display: flex;
+}
+
+.inform_two {
+    padding-left: 119px;
+}
+
+
+
+
+@media screen and (max-width: 1600px) {
+    .main_title {
+        grid-gap: 15%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .line {
+        margin-bottom: 110px;
+    }
+
+    .main_title {
+        width: 1130px;
+    }
+
+    .title_time {
+        font: 700 24px/30px "Merriweather";
+    }
+
+    .watch {
+        font: 400 18px/22px "Open Sans";
+    }
+
+    .time_photo {
+        width: 50%;
+    }
+
+    .text {
+        padding-top: 40px;
+    }
+
+    .section_text {
+        font: 400 16px/19px "Open Sans";
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main_title {
+        width: 920px;
+        grid-gap: 30%;
+    }
+
+    .title_text {
+        font-size: 62px;
+        line-height: 70px;
+        width: 487px;
+    }
+
+    .text {
+        padding-top: 30px;
+    }
+
+    .title_time {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .watch {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .footer {
+        margin-bottom: 90px;
+    }
+
+    .footer_title {
+        font-size: 62px;
+        line-height: 62px;
+        margin-top: 100px;
+    }
+
+    .white_button {
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .logo_image {
+        margin-left: 100px;
+    }
+
+    .section_text {
+        width: 80%;
+    }
+    
+    .info {
+        margin-left: 50px;
+        width: auto;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+    
+    .inform_two {
+        margin: 0;
+        padding-left: 10%;
+    }
+    
+    .social {
+        padding-left: 16%;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .info_text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 972px) {
+    .title_image {
+        width: 100px;
+    }
+
+    .main_title {
+        width: 75%;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        margin-bottom: 100px;
+    }
+
+    .title_image {
+        width: 180px;
+    }
+
+    .section_text {
+        width: 90%;
+    }
+
+    .section_text_two {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .main_title {
+        margin-bottom: 0;
+    }
+    
+    .title_image {
+        width: 100px;
+    }
+    
+    .watch {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .time_photo {
+        display: none;
+    }
+    
+    .time {
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .title_time {
+        font-size: 24px;
+    }
+    
+    .section_text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .time {
+        display: block;
+    }
+
+    .time_photo {
+        width: 100%;
+    }
+
+    .time_info {
+        width: 100%;
+    }
+
+    .footer_title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .main_title {
+        grid-gap: 0;
+        width: 96%;
+    }
+
+    .title_text {
+        width: 450px;
+        font-size: 56px;
+        line-height: 60px;
+    }
+
+    .time {
+        display: block;
+    }
+
+    .time_photo {
+        width: 100%;
+    }
+
+    .time_info {
+        width: 100%;
+    }
+    
+    .inform_two {
+        padding-left: 5%;
+    }
+    
+    .social {
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer_title {
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+}
